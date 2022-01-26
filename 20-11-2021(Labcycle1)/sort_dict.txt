@@ -1,0 +1,10 @@
+s={'maths':40,'physics':24,'english':41}                                          
+l=list(s.items())
+l.sort()
+dict1=dict(l)
+print('Ascending order is',dict1)
+l=list(s.items())
+l.sort(reverse=True)
+dict=dict(l)  
+print("Descending order is",dict)
+

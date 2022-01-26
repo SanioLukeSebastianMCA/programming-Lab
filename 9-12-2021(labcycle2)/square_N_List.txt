@@ -1,0 +1,4 @@
+numbers = [1, 2, 3, 4, 5]
+print ("numbers in a list are:",numbers)
+sq_N = [number ** 2 for number in numbers]
+print("squared numbers:",sq_N)
